@@ -13,6 +13,9 @@
     .heading_style{
         font-size: 7rem;
     }
+    .wrapper .intro{
+        max-width: 100%;
+    }
 
 }
 
@@ -21,7 +24,16 @@
         font-size: 4rem;
     }
     .heading_style{
-        font-size: 1rem;
+        font-size: 4rem;
     }
 
+
 }
+
+
+@media only screen and (max-width: 768px){
+    .banner{
+        height: 30vh;
+    }
+}
+

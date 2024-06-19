@@ -18,7 +18,7 @@ Cross.addEventListener("click", function () {
 
 // making a tab section for portfoli 
 
-function openCity(evt, cityName) {
+function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -28,9 +28,14 @@ function openCity(evt, cityName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// Automatically click on the first tab button to open it on page load
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("defaultOpen").click();
+});
 
 
 

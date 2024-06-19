@@ -644,6 +644,7 @@ display: none;
   background-color: black;
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 /* Style the buttons inside the tab */
@@ -676,7 +677,7 @@ display: none;
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+  /* padding: 6px 12px; */
   /* border: 1px solid #ccc;
   border-top: none; */
  
